@@ -1,0 +1,43 @@
+.main-content {
+    text-align: center;
+    padding: 20px;
+}
+
+.content-container {
+    display: flex;
+    align-items: center; /* Aligns items vertically in the center */
+    justify-content: center; /* Centers the content horizontally */
+    gap: 45px; /* Adds space between the image and text */
+}
+
+.profile-image {
+    width: 150px; /* Adjust as needed */
+    height: auto;
+    border-radius: 50%; /* Makes the image circular */
+}
+
+.text-content {
+    max-width: 400px; /* Adjust as needed */
+    text-align: left;
+}
+
+.text-content p {
+    font-size: 1em;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.text-content a {
+    display: inline-block;
+    background-color: #0095f6;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.text-content a:hover {
+    background-color: #0077b5;
+}

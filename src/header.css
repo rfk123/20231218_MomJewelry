@@ -1,0 +1,15 @@
+.header {
+    text-align: center;
+    padding: 10px;
+    /*background-color: #f8f8f8;  Light grey background */
+    /*border-bottom: 1px solid #eaeaea;  Adds a subtle line at the bottom */ 
+    margin-bottom: 50px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5em; /* Adjust the size as needed */
+    color: black; /* Dark grey text */
+    font-family: 'Cormorant Garamond', serif; 
+    letter-spacing: 2px;
+}
